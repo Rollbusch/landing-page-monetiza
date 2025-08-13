@@ -14,11 +14,6 @@ export default function Home() {
     }
   }, []);
 
-  const toggleTheme = () => {
-    setDarkMode(!darkMode);
-    document.documentElement.classList.toggle('dark');
-  };
-
   return (
     <div className={`min-h-screen transition-colors duration-300`}>
       {/* Header */}
@@ -228,7 +223,7 @@ export default function Home() {
                   </div>
                 </div>
                 <p className="text-gray-600 dark:text-gray-300">
-                  "O ebook tem dicas muito boas, principalmente os exemplos de hooks. Recomendo!"
+                  &ldquo;O ebook tem dicas muito boas, principalmente os exemplos de hooks. Recomendo!&rdquo;
                 </p>
               </div>
               
@@ -243,7 +238,7 @@ export default function Home() {
                   </div>
                 </div>
                 <p className="text-gray-600 dark:text-gray-300">
-                  "Finalmente um material direto ao ponto. As estratégias são fáceis de entender e aplicar."
+                  &ldquo;Finalmente um material direto ao ponto. As estratégias são fáceis de entender e aplicar.&rdquo;
                 </p>
               </div>
               
@@ -258,7 +253,7 @@ export default function Home() {
                   </div>
                 </div>
                 <p className="text-gray-600 dark:text-gray-300">
-                  "Ebook bem completo! Gostei especialmente das partes sobre timing e hashtags."
+                  &ldquo;Ebook bem completo! Gostei especialmente das partes sobre timing e hashtags.&rdquo;
                 </p>
               </div>
             </div>
