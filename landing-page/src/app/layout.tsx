@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Monetiza Digital - Estratégias de Monetização para Redes Sociais",
-  description: "Descubra estratégias comprovadas para monetizar no TikTok, Kwai e YouTube Shorts. Ebooks, PDFs e cursos sobre automação com n8n e vídeos com IA.",
+  title: "Monetiza Digital - Geração de Conteúdo com IA para Redes Sociais",
+  description: "Aprenda formas de gerar conteúdo com IA para TikTok, Kwai e YouTube Shorts. Ebook completo com técnicas e ferramentas de inteligência artificial.",
 };
 
 export default function RootLayout({
@@ -24,6 +24,26 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" className="scroll-smooth">
+      <head>
+        <link rel="icon" href="/ico/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/ico/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/ico/favicon-16x16.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/ico/apple-touch-icon.png" />
+        <link rel="manifest" href="/ico/site.webmanifest" />
+        
+        {/* Google Analytics */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-QJ0JE4VZ9H"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-QJ0JE4VZ9H');
+            `,
+          }}
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

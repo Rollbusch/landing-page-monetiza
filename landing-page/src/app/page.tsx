@@ -43,13 +43,13 @@ export default function Home() {
             </h1>
             
             <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
-              Descubra as <strong>estratégias essenciais</strong> para criar conteúdo viral no 
+              Aprenda <strong>formas de gerar conteúdo com IA</strong> para 
               TikTok, Kwai e YouTube Shorts com nosso ebook completo
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-              <a 
-                href="https://pay.kirvano.com/ccb57f3c-9283-408b-bf54-9fd6901a0222" 
+                            <a 
+                href="https://bit.ly/3UnICXL" 
             target="_blank"
             rel="noopener noreferrer"
                 className="bg-gradient-to-r from-purple-600 to-pink-600 text-white font-bold py-4 px-8 rounded-xl text-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 cursor-pointer inline-block"
@@ -95,20 +95,20 @@ export default function Home() {
             <div className="grid md:grid-cols-3 gap-8 mb-12">
               <div className="bg-red-50 dark:bg-red-900/20 p-6 rounded-xl border border-red-200 dark:border-red-800">
                 <div className="text-4xl mb-4">😤</div>
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Conteúdo Sem Estratégia</h3>
-                <p className="text-gray-600 dark:text-gray-300">Postando sem conhecer as técnicas que realmente funcionam</p>
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Criação Manual Demorada</h3>
+                <p className="text-gray-600 dark:text-gray-300">Gastando horas criando conteúdo sem usar ferramentas de IA</p>
               </div>
               
               <div className="bg-red-50 dark:bg-red-900/20 p-6 rounded-xl border border-red-200 dark:border-red-800">
                 <div className="text-4xl mb-4">⏰</div>
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Perdendo Tempo</h3>
-                <p className="text-gray-600 dark:text-gray-300">Tentando descobrir sozinho o que já foi testado e aprovado</p>
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Falta de Produtividade</h3>
+                <p className="text-gray-600 dark:text-gray-300">Não conhecendo as ferramentas de IA que aceleram a criação</p>
               </div>
               
               <div className="bg-red-50 dark:bg-red-900/20 p-6 rounded-xl border border-red-200 dark:border-red-800">
                 <div className="text-4xl mb-4">💸</div>
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Sem Resultados</h3>
-                <p className="text-gray-600 dark:text-gray-300">Criando muito mas não vendo o engajamento que deseja</p>
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Conteúdo Limitado</h3>
+                <p className="text-gray-600 dark:text-gray-300">Sem variedade e criatividade que a IA pode proporcionar</p>
               </div>
             </div>
           </div>
@@ -120,35 +120,35 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-8">
-              Nosso Ebook Vai Te Ensinar Tudo!
+              Nosso Ebook Vai Te Ensinar a Usar IA!
             </h2>
             
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg">
                 <div className="text-5xl mb-4">📚</div>
-                <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Conteúdo Completo</h3>
+                <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Ferramentas de IA</h3>
                 <p className="text-gray-600 dark:text-gray-300 mb-4">
-                  Um guia detalhado com todas as estratégias para viralizar
+                  Um guia completo com as melhores ferramentas de IA para criar conteúdo
                 </p>
                 <ul className="text-left text-gray-600 dark:text-gray-300 space-y-2">
-                  <li>✓ Estratégias para TikTok</li>
-                  <li>✓ Táticas para Kwai</li>
-                  <li>✓ Métodos para YouTube Shorts</li>
-                  <li>✓ Fórmulas de engajamento</li>
+                  <li>✓ IAs para roteiros</li>
+                  <li>✓ Geradores de ideias</li>
+                  <li>✓ Criação de thumbnails</li>
+                  <li>✓ Edição automática</li>
                 </ul>
               </div>
               
               <div className="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg">
                 <div className="text-5xl mb-4">🔥</div>
-                <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Estratégias Testadas</h3>
+                <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Automação Inteligente</h3>
                 <p className="text-gray-600 dark:text-gray-300 mb-4">
-                  Técnicas comprovadas que realmente funcionam nas redes sociais
+                  Como usar IA para automatizar e acelerar sua produção de conteúdo
                 </p>
                 <ul className="text-left text-gray-600 dark:text-gray-300 space-y-2">
-                  <li>✓ Hooks que prendem atenção</li>
-                  <li>✓ Timing perfeito para postar</li>
-                  <li>✓ Hashtags que funcionam</li>
-                  <li>✓ Formatos que viralizam</li>
+                  <li>✓ Prompts eficazes</li>
+                  <li>✓ Workflows automáticos</li>
+                  <li>✓ Geração em massa</li>
+                  <li>✓ Personalização por plataforma</li>
                 </ul>
               </div>
             </div>
@@ -179,8 +179,8 @@ export default function Home() {
                 <div className="w-16 h-16 bg-pink-600 rounded-full flex items-center justify-center mx-auto mb-4">
                   <span className="text-2xl">🎯</span>
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Estratégias Diretas</h3>
-                <p className="text-gray-600 dark:text-gray-300">Sem enrolação, apenas o que realmente funciona</p>
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">IA Prática</h3>
+                <p className="text-gray-600 dark:text-gray-300">Sem enrolação, apenas ferramentas que realmente funcionam</p>
               </div>
               
               <div className="text-center">
@@ -267,29 +267,29 @@ export default function Home() {
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl font-bold mb-6">📚 Seu Ebook Te Espera!</h2>
             <p className="text-xl mb-8">
-              Não perca mais tempo tentando descobrir sozinho. Tenha todas as estratégias em suas mãos!
+              Não perca mais tempo criando conteúdo manualmente. Tenha todas as ferramentas de IA em suas mãos!
             </p>
             
             <div className="bg-white/20 backdrop-blur-sm rounded-xl p-8 mb-8">
               <div className="text-3xl font-bold mb-4">📖 O QUE VOCÊ VAI ENCONTRAR:</div>
               <div className="grid md:grid-cols-3 gap-4 text-left">
                 <div>
-                  <h4 className="font-bold">🔥 Fórmulas Virais</h4>
-                  <p className="text-sm opacity-90">Estruturas que fazem conteúdo viralizar</p>
+                  <h4 className="font-bold">🤖 IAs Poderosas</h4>
+                  <p className="text-sm opacity-90">Ferramentas que criam conteúdo automático</p>
                 </div>
                 <div>
-                  <h4 className="font-bold">⏰ Timing Perfeito</h4>
-                  <p className="text-sm opacity-90">Quando postar para máximo alcance</p>
+                  <h4 className="font-bold">⚡ Automação Completa</h4>
+                  <p className="text-sm opacity-90">Como gerar vídeos sem esforço manual</p>
                 </div>
                 <div>
-                  <h4 className="font-bold">💡 Hooks Magnéticos</h4>
-                  <p className="text-sm opacity-90">Primeiras frases que prendem atenção</p>
+                  <h4 className="font-bold">💡 Prompts Testados</h4>
+                  <p className="text-sm opacity-90">Comandos que geram o melhor conteúdo</p>
                 </div>
               </div>
             </div>
             
-            <a 
-              href="https://pay.kirvano.com/ccb57f3c-9283-408b-bf54-9fd6901a0222" 
+                        <a 
+              href="https://bit.ly/3UnICXL" 
           target="_blank"
           rel="noopener noreferrer"
               className="bg-white text-purple-600 font-bold text-xl py-4 px-12 rounded-xl hover:bg-gray-100 transform hover:scale-105 transition-all duration-300 cursor-pointer inline-block"
@@ -323,7 +323,7 @@ export default function Home() {
                   📱 O que tem no ebook?
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300">
-                  Estratégias para TikTok, Kwai e YouTube Shorts, incluindo fórmulas de hooks, timing ideal e técnicas de engajamento.
+                  Ferramentas de IA para TikTok, Kwai e YouTube Shorts, incluindo prompts, automação e geração de conteúdo.
                 </p>
               </div>
               
