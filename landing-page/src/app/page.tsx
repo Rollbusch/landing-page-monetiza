@@ -43,7 +43,7 @@ export default function Home() {
             </h1>
             
             <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
-              Aprenda <strong>formas de gerar conteúdo com IA</strong> para 
+              Descubra <strong>dicas simples e ferramentas de IA</strong> para criar vídeos no 
               TikTok, Kwai e YouTube Shorts com nosso ebook completo
             </p>
             
@@ -96,19 +96,19 @@ export default function Home() {
               <div className="bg-red-50 dark:bg-red-900/20 p-6 rounded-xl border border-red-200 dark:border-red-800">
                 <div className="text-4xl mb-4">😤</div>
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Criação Manual Demorada</h3>
-                <p className="text-gray-600 dark:text-gray-300">Gastando horas criando conteúdo sem usar ferramentas de IA</p>
+                <p className="text-gray-600 dark:text-gray-300">Gastando horas criando conteúdo sem conhecer ferramentas que ajudam</p>
               </div>
               
               <div className="bg-red-50 dark:bg-red-900/20 p-6 rounded-xl border border-red-200 dark:border-red-800">
                 <div className="text-4xl mb-4">⏰</div>
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Falta de Produtividade</h3>
-                <p className="text-gray-600 dark:text-gray-300">Não conhecendo as ferramentas de IA que aceleram a criação</p>
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Falta de Conhecimento</h3>
+                <p className="text-gray-600 dark:text-gray-300">Não conhecendo ferramentas simples que facilitam a criação</p>
               </div>
               
               <div className="bg-red-50 dark:bg-red-900/20 p-6 rounded-xl border border-red-200 dark:border-red-800">
                 <div className="text-4xl mb-4">💸</div>
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Conteúdo Limitado</h3>
-                <p className="text-gray-600 dark:text-gray-300">Sem variedade e criatividade que a IA pode proporcionar</p>
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Postagens sem Direção</h3>
+                <p className="text-gray-600 dark:text-gray-300">Postando sem saber os melhores horários e formatos</p>
               </div>
             </div>
           </div>
@@ -120,35 +120,35 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-8">
-              Nosso Ebook Vai Te Ensinar a Usar IA!
+              Nosso Ebook Vai Te Ensinar Dicas Práticas!
             </h2>
             
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg">
                 <div className="text-5xl mb-4">📚</div>
-                <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Ferramentas de IA</h3>
+                <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Ferramentas de IA para Vídeos</h3>
                 <p className="text-gray-600 dark:text-gray-300 mb-4">
-                  Um guia completo com as melhores ferramentas de IA para criar conteúdo
+                  Descubra ferramentas simples de IA que ajudam na criação de vídeos
                 </p>
                 <ul className="text-left text-gray-600 dark:text-gray-300 space-y-2">
-                  <li>✓ IAs para roteiros</li>
-                  <li>✓ Geradores de ideias</li>
+                  <li>✓ IAs para criar roteiros</li>
+                  <li>✓ Geradores de legendas</li>
                   <li>✓ Criação de thumbnails</li>
-                  <li>✓ Edição automática</li>
+                  <li>✓ Ferramentas de edição</li>
                 </ul>
               </div>
               
               <div className="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg">
                 <div className="text-5xl mb-4">🔥</div>
-                <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Automação Inteligente</h3>
+                <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Dicas de Postagens nas Plataformas</h3>
                 <p className="text-gray-600 dark:text-gray-300 mb-4">
-                  Como usar IA para automatizar e acelerar sua produção de conteúdo
+                  Aprenda quando e como postar para ter mais visualizações
                 </p>
                 <ul className="text-left text-gray-600 dark:text-gray-300 space-y-2">
-                  <li>✓ Prompts eficazes</li>
-                  <li>✓ Workflows automáticos</li>
-                  <li>✓ Geração em massa</li>
-                  <li>✓ Personalização por plataforma</li>
+                  <li>✓ Melhores horários para postar</li>
+                  <li>✓ Tamanhos ideais para cada rede</li>
+                  <li>✓ Hashtags que funcionam</li>
+                  <li>✓ Frequência de postagem</li>
                 </ul>
               </div>
             </div>
@@ -267,23 +267,23 @@ export default function Home() {
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl font-bold mb-6">📚 Seu Ebook Te Espera!</h2>
             <p className="text-xl mb-8">
-              Não perca mais tempo criando conteúdo manualmente. Tenha todas as ferramentas de IA em suas mãos!
+              Não perca mais tempo tentando descobrir sozinho. Tenha dicas simples e ferramentas úteis em suas mãos!
             </p>
             
             <div className="bg-white/20 backdrop-blur-sm rounded-xl p-8 mb-8">
               <div className="text-3xl font-bold mb-4">📖 O QUE VOCÊ VAI ENCONTRAR:</div>
               <div className="grid md:grid-cols-3 gap-4 text-left">
                 <div>
-                  <h4 className="font-bold">🤖 IAs Poderosas</h4>
-                  <p className="text-sm opacity-90">Ferramentas que criam conteúdo automático</p>
+                  <h4 className="font-bold">🛠️ Ferramentas Simples</h4>
+                  <p className="text-sm opacity-90">IAs fáceis de usar para criar vídeos</p>
                 </div>
                 <div>
-                  <h4 className="font-bold">⚡ Automação Completa</h4>
-                  <p className="text-sm opacity-90">Como gerar vídeos sem esforço manual</p>
+                  <h4 className="font-bold">⏰ Dicas de Timing</h4>
+                  <p className="text-sm opacity-90">Quando postar para ter mais views</p>
                 </div>
                 <div>
-                  <h4 className="font-bold">💡 Prompts Testados</h4>
-                  <p className="text-sm opacity-90">Comandos que geram o melhor conteúdo</p>
+                  <h4 className="font-bold">💡 Formatos que Funcionam</h4>
+                  <p className="text-sm opacity-90">Tamanhos e tipos ideais para cada rede</p>
                 </div>
               </div>
             </div>
@@ -323,7 +323,7 @@ export default function Home() {
                   📱 O que tem no ebook?
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300">
-                  Ferramentas de IA para TikTok, Kwai e YouTube Shorts, incluindo prompts, automação e geração de conteúdo.
+                  Ferramentas simples de IA para TikTok, Kwai e YouTube Shorts, incluindo dicas de postagem e criação de vídeos.
                 </p>
               </div>
               

@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Monetiza Digital - Geração de Conteúdo com IA para Redes Sociais",
-  description: "Aprenda formas de gerar conteúdo com IA para TikTok, Kwai e YouTube Shorts. Ebook completo com técnicas e ferramentas de inteligência artificial.",
+  title: "Monetiza Digital - Dicas e Ferramentas de IA para Vídeos",
+  description: "Descubra dicas simples e ferramentas de IA para criar vídeos no TikTok, Kwai e YouTube Shorts. Ebook prático com timing de postagem e tools úteis.",
 };
 
 export default function RootLayout({
