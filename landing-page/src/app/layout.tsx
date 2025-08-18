@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next"
+
 import "./globals.css";
 
 const geistSans = Geist({
@@ -13,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Monetiza Digital - Dicas e Ferramentas de IA para Vídeos",
-  description: "Descubra dicas simples e ferramentas de IA para criar vídeos no TikTok, Kwai e YouTube Shorts. Ebook prático com timing de postagem e tools úteis.",
+  title: "Ganhando com o Digital - Faturando com Vendas Automáticas",
+  description: "Descubra como vender produtos digitais automaticamente no Instagram com robôs que trabalham 24h por dia. Acesso imediato ao curso completo.",
 };
 
 export default function RootLayout({
@@ -49,6 +51,7 @@ export default function RootLayout({
       >
         {children}
       </body>
+      <Analytics />
     </html>
   );
 }
